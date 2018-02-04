@@ -21,7 +21,7 @@ public class StaticRotation : MonoBehaviour {
 	}
 	
 	
-	void Update () 
+	void LateUpdate () 
 	{
 		transform.rotation = rot;
 	}

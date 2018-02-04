@@ -9,7 +9,7 @@ public class CambiarTexto : MonoBehaviour {
 	public GameObject player;
 	private int puntos;
 	public Text obj;
-	private ComerItem script;
+	private RunnerAcciones script;
 	#endregion
 
 
@@ -21,7 +21,7 @@ public class CambiarTexto : MonoBehaviour {
 	#region Unity Methods
 	void Start () 
 	{
-		script = player.GetComponent<ComerItem>();
+		script = player.GetComponent<RunnerAcciones>();
 		puntos = script.GetPuntos();
 	}
 	
