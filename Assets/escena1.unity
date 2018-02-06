@@ -258,6 +258,11 @@ Prefab:
       propertyPath: m_Name
       value: dona (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 95764785232345796, guid: fcd7a96c11685244bba5b9378cf1d6a9,
+        type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fcd7a96c11685244bba5b9378cf1d6a9, type: 2}
   m_IsPrefabParent: 0
@@ -1193,7 +1198,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4275417580763428, guid: fcd7a96c11685244bba5b9378cf1d6a9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.09
+      value: -1.75
       objectReference: {fileID: 0}
     - target: {fileID: 4275417580763428, guid: fcd7a96c11685244bba5b9378cf1d6a9, type: 2}
       propertyPath: m_LocalPosition.z
